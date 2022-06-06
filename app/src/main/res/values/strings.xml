@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Расчет Материалов</string>
+    <string name="total">Итого</string>
+    <string name="detail">Детализация</string>
+    <string name="joinCompleteFrament">Швы полный констркутив</string>
+    <string name="joinPartsFrament">Швы отдельные части</string>
+    <string name="main_choice">Выбор работ</string>
+    <string name="authtor">Belousov Anton / redbase23@mail.ru</string>
+    <string name="power">powered by JAVA</string>
+    <string-array name="joinComplete_choice">
+        <item>Шов сжатия в марочном</item>
+        <item>Шов расширения в марочном</item>
+        <item>Шов сжатия в основании</item>
+        <item>Шов расширения в основнии</item>
+        <item>Шов сжатия в асфальтобетоне</item>
+        <item>Шов расширения в асфальте</item>
+        <item>Шов технологический с прокладкой</item>
+    </string-array>
+    <string-array name="joinDetail_choice">
+        <item>Одиночный пропил</item>
+        <item>Нарезка камеры шва</item>
+        <item>Снятие фаски шва</item>
+        <item>Герметизация горячим герметиком</item>
+        <item>Укладка уплотнительного шнура</item>
+        <item>Укладка резинового профиля</item>
+        <item>Заполнение упругой прокладкой</item>
+    </string-array>
+    <string name="titleContractionJoint">Шов сжатия в марочном</string>
+    <string name="titleExpansionJoint">Шов расширения в марочном</string>
+    <string name="titleContractionBottom">Шов сжатия в основании</string>
+    <string name="titleExpansionBottom">Шов расширения в основании</string>
+    <string name="titleContractionAsphalt">Шов сжатия в асфальтобетоне</string>
+    <string name="titleExpansionAsphalt">Шов расширения в асфальтобетоне</string>
+    <string name="titlePaddingJoint">Шов технологический с прокладкой</string>
+    <string name="titleСutSingle">Одиночный пропил</string>
+    <string name="titleСutKamera">Нарезка камеры шва</string>
+    <string name="titleLands">Снятие фаски</string>
+    <string name="titleHotSealing">Герметизация горячим герметиком</string>
+    <string name="titleRods">Укладка уплотнительного шнура</string>
+    <string name="titleProofmate">Укладка резинового профиля</string>
+    <string name="titlePenolon">Заполнение упругой прокладкой</string>
+    <string name="cutDepth">Глубина пропила(от 0 до 450), мм</string>
+    <string name="cutDepthET">0 – 450</string>
+    <string name="pionerkaDepth">Глубина пионерного пропила(от 0 до 450), мм</string>
+    <string name="pionerkaDepthET">0 – 450</string>
+    <string name="expJointDepth">Глубина шва расширения(от 0 до 450), мм</string>
+    <string name="expJointDepthET">0 – 450</string>
+    <string name="JointDepth">Глубина шва (от 0 до 450), мм</string>
+    <string name="ContractionBottomDepth">Глубина пропила (от 0 до 450), мм</string>
+    <string name="ContractionBottomDepthET">0 – 450</string>
+    <string name="kameraWidth">Ширина камеры(от 0 до 15), мм</string>
+    <string name="kameraWidthET">0 – 15</string>
+    <string name="expJointWidth">Ширина шва расширения(от 0 до 50), мм</string>
+    <string name="expJointWidthET">0 – 50</string>
+    <string name="JointWidth">Ширина шва (от 0 до 50), мм</string>
+    <string name="kameraCutDepth">Глубина нарезки камеры(от 0 до 70), мм</string>
+    <string name="kameraCutDepthET">0 – 70</string>
+    <string name="kameraSealDepth">Глубина камеры заливки, мм</string>
+    <string name="kameraSealDepthET">0 – 70</string>
+    <string name="depthSealing">Глубина герметизации (от 0 до 300), мм</string>
+    <string name="depthSealingET">0 – 300</string>
+    <string name="widthSealing">Ширина герметизации (от 0 до 300), мм</string>
+    <string name="widthSealingET">0 – 300</string>
+    <string name="calculateMaterials">Расчет материалов</string>
+    <string name="resultMaterials">Итого необходимо материалов:</string>
+    <string name="sealantChoose">Выбор герметизации:</string>
+    <string name="sealantMaterialChoose">Выбор герметика</string>
+    <string name="rodsChoose">Выбор уплотнительного шнура</string>
+    <string name="lenght">Длина шва, м:</string>
+    <string name="lenghtET">1000</string>
+    <string name="lands">Фаска:</string>
+    <string name="rod">Уплотнительный шнур д., мм:</string>
+    <string name="pionerka">Пионерный пропил:</string>
+    <string name="hotsealant">Горячий герметик</string>
+    <string name="proofmate">Резиновый профиль</string>
+    <string name="curredCut">Марочный бетон, набравший прочность</string>
+    <string name="greenCut">Свежеуложенный и тощий бетон</string>
+    <string name="asphaltCut">Асфальтобетон</string>
+    <string name="twoSidesLands">Снятие фаски с обеих кромок</string>
+    <string name="oneSideLands">Снятие фаски с одной кромки</string>
+    <string name="penolonChoose">Заполнение шва расширения</string>
+    <string name="penolonJointChoose">Заполнение шва</string>
+    <string name="sendVia">Отправить</string>
+    <string name="add">Добавить</string>
+    <string name="addTotal">Добавить в Итог</string>
+    <string name="addWorks">Добавить объем</string>
+    <string name="long_click">Долгое нажатие - удалить.</string>
+    <string name="short_click">Коротое нажатие - детализация.</string>
+
+</resources>

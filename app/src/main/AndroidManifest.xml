@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".calculateActivities.PenolonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ProofmateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.RodsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.HotSealingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.PaddingJointActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.LandsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.CuttingKameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.CutSingleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ExpansionAsphaltActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ContractionAsphaltActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ExpansionBottomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ContractionBottomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ExpansionJointActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".calculateActivities.ContractionJointActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".DetailItemActivity"
+            android:label="@string/detail"
+            android:parentActivityName=".TotalResultActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".TotalResultActivity"
+            android:label="@string/total"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MainWindowActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
